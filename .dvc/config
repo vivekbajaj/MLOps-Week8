@@ -1,0 +1,6 @@
+[core]
+    remote = origin
+['remote "myremote"']
+    url = gs://mlops-course-dulcet-my-project-052025-v1-week1/dvc-storage
+['remote "origin"']
+    url = gs://mlops-course-dulcet-my-project-052025-v1-week1/dvc-storage
