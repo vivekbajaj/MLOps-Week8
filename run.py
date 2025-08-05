@@ -75,7 +75,8 @@ def run(mode):
                 sk_model=model,
                 artifact_path="iris_decision_tree_model",
                 signature=signature,
-                input_example=input_example
+                input_example=input_example,
+                registered_model_name="IRIS-DT",
             )
             
             # Save a local copy for subsequent CI steps
