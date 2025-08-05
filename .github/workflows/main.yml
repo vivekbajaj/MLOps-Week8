@@ -2,6 +2,9 @@ name: IRIS ML Pipeline with DVC, MLflow, and CML
 
 on:
   workflow_dispatch:
+  push:
+    tags:
+      - '*'
 
 permissions:
   contents: write
